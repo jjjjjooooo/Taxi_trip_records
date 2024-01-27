@@ -26,10 +26,33 @@ The project is organized as follows:
 - **Dockerfile**: Provides instructions for Dockerizing the application.
 - **tests/**: Unit tests for each component in `src/components`.
 
+## How to Run
+
+This project can be run either directly through Python or within a Docker container. Below are the instructions for both methods:
+
+### Running Directly with Python
+
+Before running the application, ensure you have Python installed and the virtual environment has been correctly set up by running:
+
+'pip install -r requirements.txt'
+
+Once the environment has been correctly set up, you can run the application:
+
+- Direct Application Run: Use the command 'python main.py' in your terminal to start the main application process.
+- Access via FastAPI: Use the command 'python app.py' to start the application with FastAPI. This will allow you to access the application's API endpoints.
+
+### Running with Docker
+To run the application using Docker, follow these steps:
+
+1. Build the Docker Image:
+Run 'docker build -t your-image-name .' in the terminal. Replace your-image-name with a name of your choice for the Docker image.
+
+2. Run the Docker Container:
+After the image is built, you can start the container using: 'docker run -p 80:80 your-image-name'. This command will map port 80 of the container to port 80 on your host machine.
+
+
+
+
 ## Analysis
 
 The project includes an in-depth analysis of the rolling 45-day average for trip distance and duration of yellow taxis in NYC, starting from January 2009 to the present. This analysis aims to uncover trends and patterns in taxi usage over the years.
-
-## How to Run
-
-(Include instructions on how to set up and run the project, including any necessary commands or steps to build the Docker container, if applicable.)
