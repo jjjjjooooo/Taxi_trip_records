@@ -1,0 +1,12 @@
+data_ingestion:
+  max_retries: 1
+
+data_transformation:
+  lowest_speed: 3
+  highest_speed: 70
+  shortest_trip_distance: 0.1
+  shortest_trip_duration: 60
+  least_cost: 0
+
+data_visualization:
+  rolling_days: 45

@@ -1,0 +1,16 @@
+artifacts_root: artifacts
+
+data_ingestion:
+  root_dir: artifacts/data_ingestion/
+  source_URL: https://d37ci6vzurychx.cloudfront.net/trip-data/yellow_tripdata_{:04d}-{:02d}.parquet
+  local_data_name: yellow_tripdata_{:04d}-{:02d}.parquet
+
+data_transformation:
+  root_dir: artifacts/data_transformation/
+  data_path: artifacts/data_ingestion/
+
+data_visualization:
+  root_dir: artifacts/data_visualization/
+  data_path: artifacts/data_transformation/
+  monthly_average_file_name: monthly_average_trip_length.parquet
+  rolling_average_file_name: rolling_average_trip_length.parquet
