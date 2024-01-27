@@ -59,61 +59,18 @@ The project includes an in-depth analysis of the rolling 45-day average for trip
 
 ![overview](https://github.com/jjjjjooooo/Taxi_trip_records/assets/50882720/bb39ded4-6df6-4ae7-b1be-3a2f60398414)
 
+Overall Trend: Looking at taxi trip data from 2009 to today, we see a gradual change in how far and how long taxi trips are in New York City. These changes might be because of new buildings, changes in road traffic, or how people choose to travel. Basically, it looks like taxi trips have been getting longer over time.
+
 ![seasonality-1](https://github.com/jjjjjooooo/Taxi_trip_records/assets/50882720/d5285557-c36b-4073-81ee-7f8938339a80)
 
 ![seasonality-2](https://github.com/jjjjjooooo/Taxi_trip_records/assets/50882720/7627eefc-86cd-444d-b15a-d652049ecdbd)
 
+Seasonality: Almost every year, there's a clear pattern where the shortest taxi trips happen around February, and the longest ones occur during the summer, from July to September. This likely has to do with the cold weather keeping people indoors during the winter and more tourists and outdoor activities during the summer.
+
 ![covid](https://github.com/jjjjjooooo/Taxi_trip_records/assets/50882720/41e03ed6-3840-49c3-bc8f-3d9c74eb25ea)
+
+COVID-19 Impact: In early 2020, everything changed. When COVID-19 hit, the correlation between how far and how long trips were broke down. Even though trips got longer, they took less time, probably because there were fewer cars on the road due to lockdowns. This was an unexpected twist that shows just how much the pandemic changed everyday life.
 
 ![after covid](https://github.com/jjjjjooooo/Taxi_trip_records/assets/50882720/93bef769-aa42-47e0-a444-c365c9e964bd)
 
-
-The provided figures seem to represent a time series analysis of the average trip length for yellow taxis in New York City, with a focus on both distance and duration. While I can't view the images directly, I will provide you with a general approach to analyze such time series data.
-
-General Analysis Approach:
-
-Trend Analysis:
-
-Identify any long-term increase or decrease in trip length over time.
-Look for significant changes that may correspond with external events (e.g., regulatory changes, economic events).
-Seasonality:
-
-Assess the presence of seasonal patterns or cyclical fluctuations that repeat over a specific period, such as weeks, months, or quarters.
-Determine if there are particular times of the year when trip lengths are consistently longer or shorter.
-Anomalies:
-
-Spot any outliers or unusual spikes/drops that could indicate extraordinary events or data errors.
-For instance, a sharp decline in trip distance and duration may align with the onset of the COVID-19 pandemic due to lockdowns and reduced travel.
-Covariation:
-
-Look at how trip distance and duration move in relation to each other.
-For example, one might expect longer trips to also take more time, but if you see periods where distance increases without a corresponding increase in time, it could suggest faster travel speeds (possibly due to less traffic).
-Contextual Events:
-
-If known, correlate changes in the data with specific events, like natural disasters, transit strikes, or significant changes in urban infrastructure.
-Before and After Comparisons:
-
-Compare periods before and after a significant event (like pre-COVID vs. post-COVID) to understand the impact on taxi travel behavior.
-Evaluate recovery patterns or permanent shifts in travel behavior post-event.
-Given these approaches, let's attempt to derive insights based on the context provided for the images.
-
-Insights Based on Contextual Information:
-
-Pre-COVID vs. Post-COVID: Compare the rolling averages before the pandemic to the period during and after to understand its impact. A visible decline during the pandemic followed by a recovery phase would be expected.
-
-Seasonality: There may be visible patterns that indicate seasonality. For example, trip lengths could vary with tourist seasons or school holidays.
-
-Overall Trend: Over a long period, there could be a trend indicating that trips are getting longer or shorter. This could be due to changes in urban development, traffic conditions, or user behavior.
-
-Anomalies during COVID: The "covid.jpg" and "after covid.jpg" files likely show significant deviations from the norm during 2020, which would be expected due to lockdowns and other restrictions.
-
-Seasonality and Long-term Trends: The "overview.jpg", "seasonality-1.jpg", and "seasonality-2.jpg" files might show a combination of seasonal patterns superimposed on a longer-term trend, which might be upwards or downwards.
-
-![monthly-average](https://github.com/jjjjjooooo/Taxi_trip_records/assets/50882720/efeeaf52-b07f-4fc1-b7a2-b579952631e6)
-
-
-To provide a more detailed analysis, please ensure the images are accessible or describe the patterns observed in the images.
-
-
-
-
+Recovery After COVID-19: As the city advanced beyond the peak of the pandemic, the relationship between the length and time of taxi journeys started to realign with historical patterns. However, a 'new normal' seems to have taken shape, with distinct average trip lengths diverging from pre-pandemic figures. This shift could be a reflection of lasting changes in commuting habits or a rise in remote working practices.
