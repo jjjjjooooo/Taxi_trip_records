@@ -57,15 +57,16 @@ After the image is built, you can start the container using: 'docker run -p 80:8
 
 The project includes an in-depth analysis of the rolling 45-day average for trip distance and duration of yellow taxis in NYC, starting from January 2009 to the present. This analysis aims to uncover trends and patterns in taxi usage over the years.
 
-![image](https://github.com/jjjjjooooo/Taxi_trip_records/assets/50882720/a9e32a49-db51-4b31-ab13-22f7e7e700cc)
+![overview](https://github.com/jjjjjooooo/Taxi_trip_records/assets/50882720/bb39ded4-6df6-4ae7-b1be-3a2f60398414)
 
+![seasonality-1](https://github.com/jjjjjooooo/Taxi_trip_records/assets/50882720/d5285557-c36b-4073-81ee-7f8938339a80)
 
-![image](https://github.com/jjjjjooooo/Taxi_trip_records/assets/50882720/b28142e7-d9c3-4d67-aa1e-6333f0934c0f)
+![seasonality-2](https://github.com/jjjjjooooo/Taxi_trip_records/assets/50882720/7627eefc-86cd-444d-b15a-d652049ecdbd)
 
-![image](https://github.com/jjjjjooooo/Taxi_trip_records/assets/50882720/24c1c469-734e-4984-b142-a7ad34602dd1)
+![covid](https://github.com/jjjjjooooo/Taxi_trip_records/assets/50882720/41e03ed6-3840-49c3-bc8f-3d9c74eb25ea)
 
+![after covid](https://github.com/jjjjjooooo/Taxi_trip_records/assets/50882720/93bef769-aa42-47e0-a444-c365c9e964bd)
 
-![image](https://github.com/jjjjjooooo/Taxi_trip_records/assets/50882720/95f4a586-c20b-4981-9db3-c5aed3414927)
 
 The provided figures seem to represent a time series analysis of the average trip length for yellow taxis in New York City, with a focus on both distance and duration. While I can't view the images directly, I will provide you with a general approach to analyze such time series data.
 
