@@ -109,7 +109,7 @@ Anomalies during COVID: The "covid.jpg" and "after covid.jpg" files likely show 
 
 Seasonality and Long-term Trends: The "overview.jpg", "seasonality-1.jpg", and "seasonality-2.jpg" files might show a combination of seasonal patterns superimposed on a longer-term trend, which might be upwards or downwards.
 
-![Uploading monthly-average.jpg…]()
+![monthly-average](https://github.com/jjjjjooooo/Taxi_trip_records/assets/50882720/efeeaf52-b07f-4fc1-b7a2-b579952631e6)
 
 
 To provide a more detailed analysis, please ensure the images are accessible or describe the patterns observed in the images.
