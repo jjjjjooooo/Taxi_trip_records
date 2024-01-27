@@ -1,5 +1,5 @@
 data_ingestion:
-  max_retries: 1
+  max_retries: 10
 
 data_transformation:
   lowest_speed: 3
