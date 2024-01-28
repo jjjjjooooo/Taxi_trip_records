@@ -59,7 +59,7 @@ The project includes an in-depth analysis of the rolling 45-day average for trip
 
 ![overview](https://github.com/jjjjjooooo/Taxi_trip_records/assets/50882720/bb39ded4-6df6-4ae7-b1be-3a2f60398414)
 
-Overall Trend: Looking at taxi trip data from 2009 to today, we see a gradual change in how far and how long taxi trips are in New York City. These changes might be because of new buildings, changes in road traffic, or how people choose to travel. Basically, it looks like taxi trips have been getting longer over time.
+Overall Trend: The analysis of taxi trip data from 2009 to the present suggests a discernible evolution in the average distances and durations of taxi trips in New York City. This gradual shift could be attributed to urban development, evolving traffic patterns, or changes in commuter behaviors. The data indicates a tendency for taxi trips to become lengthier, with distance and duration generally showing a consistent correlation. However, external factors and specific events within the city may disrupt this trend periodically. Such a trend underscores the dynamic nature of urban mobility and reflects the city's ongoing infrastructural and socio-economic transformations.
 
 ![seasonality-1](https://github.com/jjjjjooooo/Taxi_trip_records/assets/50882720/d5285557-c36b-4073-81ee-7f8938339a80)
 
