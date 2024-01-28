@@ -65,7 +65,7 @@ Overall Trend: Looking at taxi trip data from 2009 to today, we see a gradual ch
 
 ![seasonality-2](https://github.com/jjjjjooooo/Taxi_trip_records/assets/50882720/7627eefc-86cd-444d-b15a-d652049ecdbd)
 
-Seasonality: Almost every year, there's a clear pattern where the shortest taxi trips happen around February, and the longest ones occur during the summer, from July to September. This likely has to do with the cold weather keeping people indoors during the winter and more tourists and outdoor activities during the summer.
+Seasonality: There is a clear seasonal pattern observed with peaks and troughs occurring around the same time each year. Trip distances peak during the summer months, which could be due to increased tourism and outdoor activities when the weather is favorable. Conversely, trip durations appear to peak slightly later in the year, which may be influenced by increased traffic congestion and slower travel times as the weather deteriorates and the holiday season approaches. The shortest trip distances and durations tend to occur in the winter months, particularly around February, which may correspond with the coldest time of the year when there's likely to be a reduction in tourism and possibly more residents choosing to stay indoors or use alternative modes of transportation.
 
 ![covid](https://github.com/jjjjjooooo/Taxi_trip_records/assets/50882720/41e03ed6-3840-49c3-bc8f-3d9c74eb25ea)
 
