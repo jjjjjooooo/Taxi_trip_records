@@ -18,12 +18,27 @@ class DataVisualization:
         self.config = config
 
     def load_data(self, file):
+        """
+        Loads data from a Parquet file, converts the 'date' column to datetime, and sets it as the index.
+
+        Parameters:
+        - file (str): Path to the Parquet file.
+
+        Returns:
+        - df (DataFrame): Pandas DataFrame with 'date' as the index.
+        """
         df = pq.read_table(file).to_pandas()
         df["date"] = pd.to_datetime(df["date"])
         df.set_index("date", inplace=True)
         return df
 
     def plot_static_trip_length(self, file_path):
+        """
+        Generates a static matplotlib plot for the average trip length of taxis.
+
+        Parameters:
+        - file_path (str): Path to the data file.
+        """
         df = self.load_data(file_path)
 
         fig, ax1 = plt.subplots(figsize=(10, 6))
@@ -40,6 +55,12 @@ class DataVisualization:
         plt.show()
 
     def plot_interactive_trip_length(self, file_path):
+        """
+        Generates an interactive Plotly plot for the average trip length of taxis.
+
+        Parameters:
+        - file_path (str): Path to the data file.
+        """
         df = self.load_data(file_path)
 
         folder_name, file_name = os.path.split(file_path)
@@ -82,6 +103,9 @@ class DataVisualization:
         fig.show()
 
     def calculate_monthly_average(self):
+        """
+        Calculates and saves the monthly average trip length for taxis to a Parquet file.
+        """
         try:
             monthly_averages = []
             for file_name in os.listdir(self.config.data_path):
@@ -113,6 +137,9 @@ class DataVisualization:
             raise CustomException(f"Processing monthly average failed: {e}", sys)
 
     def calculate_rolling_average(self):
+        """
+        Calculates and saves the rolling average trip length for taxis to a Parquet file.
+        """
         try:
             daily_averages = []
             for file_name in os.listdir(self.config.data_path):
@@ -147,6 +174,14 @@ class DataVisualization:
             raise CustomException(f"Processing rolling average failed: {e}", sys)
 
     def execute_analysis(self, analysis_type):
+        """
+        The method checks if the count of data files has increased since the last run or if the summary
+        file for the analysis does not exist. If so, it performs the analysis, saves the updated file count,
+        and generates a new interactive plot. Otherwise, it displays the existing plot.
+
+        Parameters:
+        - analysis_type (str): The type of analysis to perform, either 'monthly_average' or 'rolling_average'.
+        """
         file_path = os.path.join(self.config.root_dir, "existing_file_count.yaml")
         current_count = 0
         if os.path.exists(file_path):
