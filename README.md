@@ -24,9 +24,13 @@ The project is organized as follows:
 - **main.py**: Entry point for running the pipeline scripts.
 - **app.py**: Application entry point, orchestrating the overall process.
 - **Dockerfile**: Provides instructions for Dockerizing the application.
-- **tests/**: Unit tests for each component in `src/components`.
+- **tests/**: This directory contains unit tests for each component located in src/components.
 
-## How to Run
+## How to Run Tests
+
+To execute tests for a specific component, use the command 'pytest tests/<component_name>.py'. Replace <component_name> with the appropriate component name, such as test_data_ingestion, test_data_transformation, or test_data_visualization, depending on which component you wish to test.
+
+## How to Run Program
 
 This project can be run either directly through Python or within a Docker container. Below are the instructions for both methods:
 
@@ -49,9 +53,6 @@ Run 'docker build -t your-image-name .' in the terminal. Replace your-image-name
 
 2. Run the Docker Container:
 After the image is built, you can start the container using: 'docker run -p 80:80 your-image-name'. This command will map port 80 of the container to port 80 on your host machine.
-
-
-
 
 ## Analysis
 
