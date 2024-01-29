@@ -24,7 +24,7 @@ The project is organized as follows:
 - **main.py**: Entry point for running the pipeline scripts.
 - **app.py**: Application entry point, orchestrating the overall process.
 - **Dockerfile**: Provides instructions for Dockerizing the application.
-- **tests/**: Contains unit tests for each component located in src/components.
+- **tests/**: Unit tests for each component located in src/components.
 
 ## How to Run Tests
 
