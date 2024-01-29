@@ -74,4 +74,4 @@ The project includes an in-depth analysis of the rolling 45-day average for trip
 
 ![after covid](https://github.com/jjjjjooooo/Taxi_trip_records/assets/50882720/93bef769-aa42-47e0-a444-c365c9e964bd)
 
-**Recovery After COVID-19**: As the city advanced beyond the peak of the pandemic, the relationship between the length and time of taxi journeys started to realign with historical patterns. However, a 'new normal' seems to have taken shape, with distinct average trip lengths diverging from pre-pandemic figures. This shift could be a reflection of lasting changes in commuting habits or a rise in remote working practices.
+**Recovery After COVID-19**: As the city advanced beyond the peak of the pandemic, the relationship between the distance and duration of taxi trips started to realign with historical patterns. However, a 'new normal' seems to have taken shape, with distinct average trip lengths diverging from pre-pandemic figures. This shift could be a reflection of lasting changes in commuting habits or a rise in remote working practices.
