@@ -16,11 +16,11 @@ The project is organized as follows:
 - **config/config.yaml**: Contains configuration values for the project.
 - **requirements.txt**: Lists all the required Python packages.
 - **research/**: Jupyter notebooks for component research.
-- **src/utils**: Utility functions used across different components.
+- **src/utils/**: Utility functions used across different components.
 - **src/entity/__init__.py**: Defines class attributes for each project component.
 - **src/config/config.py**: Manages application configuration.
-- **src/components**: Core code for each project component.
-- **src/pipeline**: Execution scripts for each component, managing the workflow.
+- **src/components/**: Core code for each project component.
+- **src/pipeline/**: Execution scripts for each component, managing the workflow.
 - **main.py**: Entry point for running the pipeline scripts.
 - **app.py**: Application entry point, orchestrating the overall process.
 - **Dockerfile**: Provides instructions for Dockerizing the application.
